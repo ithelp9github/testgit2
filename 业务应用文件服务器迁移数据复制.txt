@@ -1,0 +1,9 @@
+pause
+Robocopy   X:\投研线系统\Quantitative_investment \\fileyy.app.efunds.gz\TYXSystem\Quantitative_investment /E /B /MIR /DCOPY:T /COPYALL /MT:32 /R:10 /V /X /LOG+:d:\nas迁移\TYXSystem-Quantitative_investment-MIR.log
+Robocopy   X:\投研线系统Quantitative_share_files \\fileyy.app.efunds.gz\TYXSystem\Quantitative_share_files /E /B /MIR /DCOPY:T /COPYALL /MT:32 /R:10 /V /X /LOG+:d:\nas迁移\TYXSystem-Quantitative_share_files-MIR.log
+Robocopy   X:\SCXSystem\FISP \\fileyy.app.efunds.gz\SCXSystem\FISP /E /B /MIR /DCOPY:T /COPYALL /MT:32 /R:10 /V /X /LOG+:d:\nas迁移\SCXSystem-FISP-MIR.log
+Robocopy   X:\TYXSystem\DSP \\fileyy.app.efunds.gz\TYXSystem\DSP /E /B /MIR /DCOPY:T /COPYALL /MT:32 /R:10 /V /X /LOG+:d:\nas迁移\TYXSystem-DSP-MIR.log
+Robocopy   X:\TYXSystem\IMS应用服务器 \\fileyy.app.efunds.gz\TYXSystem\IMS应用服务器 /E /B /MIR /DCOPY:T /COPYALL /MT:32 /R:10 /V /X /LOG+:d:\nas迁移\TYXSystem-IMS应用服务器-MIR.log
+Robocopy   D:\业务系统备份数据\投研线系统\ClariFI \\fileyybak.app.efunds.gz\backup\TYXSystem\ClariFI /E /B /MIR /DCOPY:T /COPYALL /MT:32 /R:10 /V /X /LOG+:d:\nas迁移\Backup-TYXSystem-ClariFI-MIR.log
+Robocopy   D:\业务系统备份数据\投研线系统\IMS应用服务器 \\fileyybak.app.efunds.gz\backup\TYXSystem\IMS应用服务器 /E /B /MIR /DCOPY:T /COPYALL /MT:32 /R:10 /V /X /LOG+:d:\nas迁移\backup-TYXSystem-IMS应用服务器-MIR.log
+pause
